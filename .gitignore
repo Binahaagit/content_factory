@@ -1,0 +1,23 @@
+# Environment variables - NEVER upload this
+.env
+
+# Python cache files - not needed on GitHub
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environment folder
+venv/
+env/
+
+# Node modules - too large for GitHub
+node_modules/
+
+# Build files
+frontend/dist/
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
