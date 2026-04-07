@@ -200,13 +200,5 @@ Visit `http://localhost:5173` in your browser. You should see the WordLoom landi
 
 ## 📝 Notes
 
-- The free tier of Gemini API allows 15 requests per minute and 1500 requests per day
-- If you hit rate limits, the app will automatically retry up to 3 times with a 30-second wait
 - Scanned/image-based PDFs are not supported — only text-layer PDFs work
 - The URL scraper works best with article and product pages; login-protected or JavaScript-rendered pages may not work
-
----
-
-## 👤 Author
-
-Built for the Cymonic.ai Hackathon 2026.
