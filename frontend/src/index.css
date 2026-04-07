@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030d1a;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar to match ocean theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #051525;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a2040;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: #38bdf820;
+  color: #38bdf8;
+}
+/* ── APP PAGE READABILITY FIX ── */
+
+/* All text in app defaults to readable lavender */
+.app-wrap * {
+  --text-base: #e9d5ff;
+}
+
+/* Section labels */
+.app-wrap [style*="letter-spacing:0.2em"],
+.app-wrap [style*="letter-spacing: 0.2em"] {
+  color: rgba(216, 180, 254, 0.75) !important;
+}
